@@ -13,7 +13,7 @@ if (score >= 0 && score <= 39) {
 } else if (score >= 88 && score <= 100) {
   grade = 5;
 } else {
-  grade = 'Invalid score. Please enter a number between 0 and 100.';
+  grade = 'Please enter a number between 0 and 100.';
 }
 
 document.querySelector('#target').innerHTML = 'Your grade is: ' + grade;

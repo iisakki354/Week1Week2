@@ -4,7 +4,7 @@ for (let i = 1; i <= Natural_number; i++) {
   sum += i;
 }
 document.querySelector('#target').innerHTML =
-  'The sum of all natural numbers up to and including' +
+  'The sum' +
   Natural_number +
   'is:' +
   sum;

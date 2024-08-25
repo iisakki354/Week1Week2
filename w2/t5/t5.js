@@ -11,7 +11,7 @@ function sortArray(numbers, order) {
       return b - a;
     });
   } else {
-    console.warn('Invalid order parameter! Returning the original array.');
+    console.warn('Invalid! Returning the original array.');
     return numbers;
   }
   return sortedArray;
